@@ -1,5 +1,5 @@
 /*
- * Guía de laboratorio 05 - Programación 3 - 2012
+ * Guía de laboratorio 06 - Programación 3 - 2012
  * Ejemplo 3: Triangulo de pascal a partir de la dimensión dada.
  */
 package triangulopascal;

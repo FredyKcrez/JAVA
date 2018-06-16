@@ -1,5 +1,5 @@
 /*
- * Guía de laboratorio 05 - Programación 3 - 2012
+ * Guía de laboratorio 06 - Programación 3 - 2012
  * Ejercicio 1: Cantidad de vocales en una cadena de caracteres.
  */
 package cantidadvocales;

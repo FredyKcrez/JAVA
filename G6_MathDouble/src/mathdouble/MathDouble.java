@@ -1,5 +1,5 @@
 /*
- * Guía de laboratorio 05 - Programación 3 - 2012
+ * Guía de laboratorio 06 - Programación 3 - 2012
  * Ejemplo 1: Métodos estáticos de las clases Math y Double
  */
 package mathdouble;

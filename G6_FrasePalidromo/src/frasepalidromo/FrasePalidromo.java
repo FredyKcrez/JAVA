@@ -1,5 +1,5 @@
 /*
- * Guía de laboratorio 05 - Programación 3 - 2012
+ * Guía de laboratorio 06 - Programación 3 - 2012
  * Ejercicio 2: Determinar si una cadena de texto es un palindromo.
  */
 package frasepalidromo;

@@ -1,5 +1,5 @@
 /*
- * Guía de laboratorio 05 - Programación 3 - 2012
+ * Guía de laboratorio 06 - Programación 3 - 2012
  * Ejemplo 2: Métodos disponibles para manipular cadenas de caracteres.
  */
 package pruebacadenas;
