@@ -1,5 +1,7 @@
 package empleado;
 
+import empleado.Fecha;
+
 /**
  * @date 18/06/2018
  * @author Fredy Kcrez
