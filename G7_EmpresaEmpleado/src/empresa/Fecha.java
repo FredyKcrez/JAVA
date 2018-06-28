@@ -1,4 +1,4 @@
-package empleado;
+package empresa;
 
 import java.util.Date;
 
