@@ -5,13 +5,13 @@ package ejemploherencia1;
  * @author Fredy Kcrez
  */
 public class EmpleadoPorComision extends Object {
-    private String primerNombre;
-    private String apellidoPaterno;
-    private String numeroSeguroSocial;
-    private double ventasTotales;
-    private double tarifaComision;
+    protected String primerNombre;
+    protected String apellidoPaterno;
+    protected String numeroSeguroSocial;
+    protected double ventasTotales;
+    protected double tarifaComision;
     
-    EmpleadoPorComision( String nombre, String apellido, String nss, double ventas, double tarifa ) {
+    public EmpleadoPorComision( String nombre, String apellido, String nss, double ventas, double tarifa ) {
         // la llamada implícita al constructor de Object ocurre aquí
         // Los constructores no se heradan
         this.setPrimerNombre( nombre );
@@ -91,7 +91,7 @@ public class EmpleadoPorComision extends Object {
      * @param tarifaComision the tarifaComision to set
      */
     public void setTarifaComision(double tarifaComision) {
-        if(tarifaComision > 0.0)
+        if( (tarifaComision > 0.0) && (tarifaComision > 0.0) )
             this.tarifaComision = tarifaComision;
         else
             throw new IllegalArgumentException("La tarifa de comisión debe ser > 0.0 y < 1.0" );
