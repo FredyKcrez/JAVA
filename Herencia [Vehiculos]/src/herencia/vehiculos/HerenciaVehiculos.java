@@ -1,8 +1,7 @@
 package herencia.vehiculos;
 import java.util.Scanner;
 
-public class HerenciaVehiculos
-{
+public class HerenciaVehiculos {
 
     public static void main(String[] args)
     {
