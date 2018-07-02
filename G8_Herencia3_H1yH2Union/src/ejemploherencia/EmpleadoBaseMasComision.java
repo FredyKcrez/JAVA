@@ -2,7 +2,7 @@ package ejemploherencia;
 import ejemploherencia1.EmpleadoPorComision;
 
 /**
- *
+ * @date 02/07/2018
  * @author Fredy Kcrez
  */
 public class EmpleadoBaseMasComision extends EmpleadoPorComision {
