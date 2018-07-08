@@ -9,4 +9,9 @@ public class pFijo extends Boleto {
     public pFijo(double precio) {
         super(precio);
     }
+
+    @Override
+    public double getPrecio() {
+        return this.precio;
+    }
 }

@@ -9,5 +9,9 @@ public class Cortesia extends Boleto {
     public Cortesia(double precio) {
         super(precio);
     }
-    
+
+    @Override
+    public double getPrecio() {
+        return this.precio;
+    }
 }

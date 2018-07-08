@@ -9,5 +9,9 @@ public class Taquilla extends Boleto {
     public Taquilla(double precio) {
         super(precio);
     }
-    
+
+    @Override
+    public double getPrecio() {
+        return this.precio;
+    }
 }

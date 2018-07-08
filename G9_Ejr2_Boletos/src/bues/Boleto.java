@@ -5,11 +5,20 @@ package bues;
  * @author Fredy Kcrez
  */
 public abstract class Boleto {
+    protected final int lista[] = new int[999];
     private int numeroSerie;
     protected double precio;
+    private int num = 0;
     
     public Boleto(double precio) {
         this.setPrecio( precio );
+        this.codificarNumeroSerie();
+    }
+    
+    public void codificarNumeroSerie() {
+        lista[num] = num + 1;
+        num++;
+        this.setNumeroSerie(num);
     }
 
     /**
@@ -29,14 +38,17 @@ public abstract class Boleto {
     /**
      * @return the precio
      */
-    public double getPrecio() {
-        return precio;
-    }
+    public abstract double getPrecio();
 
     /**
      * @param precio the precio to set
      */
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+    
+    @Override
+    public String toString() {
+        return String.format("Número de Serie: %s\nPrecio del boleto: %.2f", this.numeroSerie, this.precio);
     }
 }
